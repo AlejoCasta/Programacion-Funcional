@@ -1,0 +1,9 @@
+run
+testOnly *.HelloSpec
+test
+run
+compile
+run
+compile
+exit
+testOnly *.FibonacciTest

@@ -1,0 +1,70 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/alejandro/IdeaProjects/course/src/main/scala/example/fibonacci.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/alejandro/IdeaProjects/course/src/main/scala/example/MainFibonacci.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(A, Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(A, Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/alejandro/IdeaProjects/course/src/main/scala/example/MainFibonacci.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/alejandro/IdeaProjects/course/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4e1a01d for Scala compiler version 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/alejandro/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/alejandro/IdeaProjects/course/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 7.364367503 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from A...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(A)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(A)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(A,ModifiedNames(changes = UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(factorial,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(A,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]))) invalidates 1 classes due to The A has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(factorial,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(A,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(A)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Main...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Main,ModifiedNames(changes = UsedName(args,[Default]), UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName(delayedInit,[Default]), UsedName($isInstanceOf,[Default]), UsedName(executionStart,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(main,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(Main,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]))) invalidates 1 classes due to The Main has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(args,[Default]), UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName(delayedInit,[Default]), UsedName($isInstanceOf,[Default]), UsedName(executionStart,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(main,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(toString,[Default]), UsedName(Main,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from example.MainFactorial...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(example.MainFactorial)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(example.MainFactorial)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(example.MainFactorial,ModifiedNames(changes = UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(Factorial,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(MainFactorial,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]))) invalidates 1 classes due to The example.MainFactorial has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(Factorial,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(MainFactorial,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(example.MainFactorial)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from example.MainFactorial.Factorial...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(example.MainFactorial.Factorial)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(example.MainFactorial.Factorial)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(example.MainFactorial.Factorial,ModifiedNames(changes = UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(factorial,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(Factorial,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]))) invalidates 1 classes due to The example.MainFactorial.Factorial has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(wait,[Default]), UsedName(hashCode,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName(factorial,[Default]), UsedName($asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(Factorial,[Default]), UsedName(clone,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(==,[Default]), UsedName(notifyAll,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(##,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(example.MainFactorial.Factorial)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
