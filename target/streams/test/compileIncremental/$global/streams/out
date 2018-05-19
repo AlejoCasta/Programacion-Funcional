@@ -1,27 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar: stamp changed from lastModified(1509141854000) to lastModified(1521029755000)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe example.MainFactorial$Factorial$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(fibonacci,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) example.MainFactorial$Factorial$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) example.MainFactorial$Factorial$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of example.FibonacciTest. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/alejandro/IdeaProjects/course/src/test/scala/example/FibonacciTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/alejandro/IdeaProjects/course/src/test/scala/example/SumaDeMultiplosTest.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/alejandro/IdeaProjects/course/target/scala-2.12/test-classes/example/HelloSpec.class)[0m
-[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/alejandro/IdeaProjects/course/target/scala-2.12/test-classes/example/FibonacciTest.class, /home/alejandro/IdeaProjects/course/target/scala-2.12/test-classes/example/HelloSpec.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(example.MainFactorial$Factorial$,ModifiedNames(changes = UsedName(fibonacci,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/alejandro/IdeaProjects/course/src/test/scala/example/HelloSpec.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/alejandro/IdeaProjects/course/src/test/scala/example/FibonacciTest.scala, /home/alejandro/IdeaProjects/course/src/test/scala/example/HelloSpec.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/alejandro/IdeaProjects/course/src/test/scala/example/HelloSpec.scala, /home/alejandro/IdeaProjects/course/src/test/scala/example/FibonacciTest.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/alejandro/IdeaProjects/course/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to /home/alejandro/IdeaProjects/course/target/scala-2.12/test-classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 45136808 for Scala compiler version 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 29d0eff3 for Scala compiler version 2.12.3[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/alejandro/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/alejandro/IdeaProjects/course/target/scala-2.12/test-classes:/home/alejandro/IdeaProjects/course/target/scala-2.12/classes:/home/alejandro/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.3.jar:/home/alejandro/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.3.jar:/home/alejandro/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.3.jar:/home/alejandro/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/alejandro/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 5.54710396 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 12.841855877 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

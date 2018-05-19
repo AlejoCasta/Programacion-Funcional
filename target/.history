@@ -7,3 +7,7 @@ run
 compile
 exit
 testOnly *.FibonacciTest
+clase 8
+clase8
+Main
+sbt run

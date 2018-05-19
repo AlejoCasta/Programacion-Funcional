@@ -1,3 +1,4 @@
+/*
 import scala.annotation.tailrec
 
 def suma(a:Int ,b:Int):Int= a+b                 //> suma: (a: Int, b: Int)Int
@@ -21,3 +22,4 @@ def mcd (n:Int,n2:Int):Int={
   mcd2(n,n2)
 }
 mcd(6,6)
+*/

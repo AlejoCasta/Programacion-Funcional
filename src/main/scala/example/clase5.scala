@@ -1,3 +1,4 @@
+/*
 /*case class Persona(nombre:String,edad:Int)
 implicit def sumarEdad: Persona=>Int=_.edad
 
@@ -58,4 +59,4 @@ sumar(1,2)
 sumar("1","2")
 val persona1 = Persona("",0,9)
 val persona2 =  Persona("",0,9)
-sumar(persona1,persona1)s
+sumar(persona1,persona1)s*/

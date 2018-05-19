@@ -1,4 +1,4 @@
-sealed trait EjemploCompanionObject
+/*sealed trait EjemploCompanionObject
 case class D  extends EjemploCompanionObject
 
 object D {
@@ -6,4 +6,4 @@ object D {
     println("D")
     new D()
   }
-}
+}*/
