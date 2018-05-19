@@ -1,12 +1,14 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.SumaDeMultiplosTest, org.scalatest.tools.Framework$$anon$1@413b5706, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.FibonacciTest, org.scalatest.tools.Framework$$anon$1@413b5706, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.HelloSpec, org.scalatest.tools.Framework$$anon$1@413b5706, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 358 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.ParqueaderoTest, org.scalatest.tools.Framework$$anon$1@10b64ac5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.FibonacciTest, org.scalatest.tools.Framework$$anon$1@10b64ac5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.HelloSpec, org.scalatest.tools.Framework$$anon$1@10b64ac5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.SumaDeMultiplosTest, org.scalatest.tools.Framework$$anon$1@10b64ac5, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 346 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example.SumaDeMultiplosTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example.ParqueaderoTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example.FibonacciTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	example.HelloSpec[0m

@@ -1,5 +1,6 @@
 #Successful Tests
-#Fri Apr 13 15:20:06 COT 2018
-example.FibonacciTest=1523650806342
-example.HelloSpec=1523650806372
-example.SumaDeMultiplosTest=1523650806345
+#Fri May 18 21:45:57 COT 2018
+example.FibonacciTest=1526697956956
+example.HelloSpec=1526697956955
+example.ParqueaderoTest=1526697956955
+example.SumaDeMultiplosTest=1526697956957

@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mParqueaderoTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcalcular tarifa carro bajo cilindraje[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should calcular el precio del carro *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> was not equal to 12000 (ParqueaderoTest.scala:12)[0m[0m
